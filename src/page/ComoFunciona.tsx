@@ -38,6 +38,11 @@ const ComoFunciona = () => {
             <br /> <br />
             <Video />
 
+            <div className="btn">
+                <button className="btnCadastro"><a href="https://digital.igreenenergy.com.br/?id=74060">Cadastre-se</a></button>
+            </div>
+
+
             <br /><br /><br /><br />
 
         </div>
