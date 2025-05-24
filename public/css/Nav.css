@@ -1,0 +1,60 @@
+.navVideo {
+    width: 100vw;
+    height: 52vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.bgVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.classlogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    width: 80%;
+    max-width: 1200px;
+    flex-wrap: nowrap;
+}
+
+.textoVideo {
+    color: var(--branco);
+    font-size: 4rem;
+}
+
+.textoVideo span {
+    color: var(--verde);
+    text-shadow: 0 0 4px rgba(0, 255, 76, 0.6);
+}
+
+.classlogo img {
+    width: 20%;
+    height: auto;
+    filter: sepia(1) hue-rotate(90deg) saturate(4);
+}
+
+@media (max-width: 768px) {
+    .textoVideo {
+        font-size: 2rem;
+        text-align: start;
+    }
+
+    .classlogo img {
+        width: 40%;
+    }
+    .navVideo {
+    height: 40vh;
+}
+}

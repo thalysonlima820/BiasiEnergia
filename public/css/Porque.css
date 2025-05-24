@@ -1,0 +1,42 @@
+.porque {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.porque h1 {
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+.porque p {
+    color: #fff;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+.porque button {
+    background-color: var(--verde);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.porque button a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+@media (max-width: 768px) {
+    .porque h1 {
+        font-size: 2.7em;
+    }
+
+    .porque p {
+        max-width: 90%;
+        margin-bottom: 5%;
+    }
+}
