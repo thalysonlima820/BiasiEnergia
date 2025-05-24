@@ -1,3 +1,5 @@
+import Aplicativo from "./Aplicativo"
+import Vantagens from "./Vantagens"
 import Video from "./Video"
 
 const ComoFunciona = () => {
@@ -36,14 +38,16 @@ const ComoFunciona = () => {
                 </div>
             </div>
             <br /> <br />
-            <Video />
+                <Video />
+          
 
             <div className="btn">
                 <button className="btnCadastro"><a href="https://digital.igreenenergy.com.br/?id=74060">Cadastre-se</a></button>
             </div>
 
-
-            <br /><br /><br /><br />
+            <br />
+            <Aplicativo />
+            <Vantagens />
 
         </div>
     )

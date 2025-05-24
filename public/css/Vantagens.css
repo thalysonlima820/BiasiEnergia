@@ -1,0 +1,70 @@
+.aplicativo {
+    text-align: center;
+}
+
+.aplicativo h1 {
+    font-weight: 300;
+    letter-spacing: 10px;
+    color: var(--branco);
+}
+
+.boxsVantagens {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.boxVantagens {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.box1Vantagens {
+    padding: 20px;
+}
+
+.box1Vantagens h3 {
+    color: #fff;
+    font-size: 1.5em;
+    text-align: start;
+    font-weight: 300;
+    letter-spacing: 10px;
+}
+
+.box1Vantagens ul {
+    color: #fff;
+    font-size: 1.5em;
+    text-align: start;
+}
+
+.box2Vantagens img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .aplicativo h1 {
+        font-size: 2em;
+    }
+
+    .box1Vantagens ul {
+        font-size: 1.5em;
+        text-align: start;
+        margin-left: 0;
+    }
+
+    .boxsVantagens {
+        flex-direction: column;
+    }
+
+    .box1Vantagens,
+    .box2Vantagens {
+        width: 100%;
+    }
+
+    .box2Vantagens {
+        order: -1;
+    }
+}

@@ -1,8 +1,19 @@
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;   /* distância da base da tela */
+  right: 20px;    /* distância da lateral direita */
+  width: 60px;
+  height: 60px;
+  background-color: #25D366; /* cor verde WhatsApp */
+  border-radius: 50%;       /* forma circular */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  z-index: 1000;
+}
 
-
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.whatsapp-float img {
+  width: 30px;   /* tamanho do ícone dentro da bolinha */
+  height: 30px;
 }
