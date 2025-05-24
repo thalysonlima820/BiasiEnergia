@@ -54,7 +54,7 @@
 .linha {
   width: 100px;
   height: 0;
-  border-top: 4px dashed orange;
+  border-top: 4px dashed orange !important;
   margin: 0 10px;
   margin-top: 4%;
 }
@@ -105,7 +105,7 @@
   .linha {
     width: 0;
     height: 100px;
-    border-left: 4px dashed orange;
+    border-left: 4px dashed orange !important;
     position: relative;
     margin-bottom: 0px;
   }
