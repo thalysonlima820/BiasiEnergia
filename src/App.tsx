@@ -11,8 +11,32 @@ import logo from '../public/Conexao-Green.png'
 import Porque from './page/Porque'
 import ComoFunciona from './page/ComoFunciona'
 import Footer from './page/Footer'
+import { useEffect } from 'react'
 
 function App() {
+
+    useEffect(() => {
+    // Cria a tag <script> para o Google Tag Manager
+    const script1 = document.createElement('script');
+    script1.async = true;
+    script1.src = "https://www.googletagmanager.com/gtag/js?id=AW-972805793";
+    document.head.appendChild(script1);
+
+    const script2 = document.createElement('script');
+    script2.innerHTML = `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-972805793');
+    `;
+    document.head.appendChild(script2);
+
+    // Remover scripts se o componente for desmontado
+    return () => {
+      document.head.removeChild(script1);
+      document.head.removeChild(script2);
+    };
+  }, []);
 
   return (
     <>
