@@ -42,7 +42,7 @@ const ComoFunciona = () => {
           
 
             <div className="btn">
-                <button className="btnCadastro"><a href="https://digital.igreenenergy.com.br/?id=74060">Cadastre-se</a></button>
+                <button className="btnCadastro"><a href="https://digital.igreenenergy.com.br/?id=74060&sendcontract=true">Cadastre-se</a></button>
             </div>
 
             <br />

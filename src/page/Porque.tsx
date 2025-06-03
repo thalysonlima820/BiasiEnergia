@@ -8,7 +8,7 @@ const Porque = () => {
             economia através de fontes energéticas sustentáveis
             que transformam a vida das pessoas.
         </p>
-        <button><a href="https://digital.igreenenergy.com.br/?id=74060">Cadastre-se</a></button>
+        <button><a href="https://digital.igreenenergy.com.br/?id=74060&sendcontract=true">Cadastre-se</a></button>
     </div>
   )
 }
